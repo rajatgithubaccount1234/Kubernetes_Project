@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: mrdevops
-          image: rajatdockeraccount/pipeline-demo
+          image: rajatdockeraccount/new-project:Latest
           imagePullPolicy: Always
           ports:
           - containerPort: 80
